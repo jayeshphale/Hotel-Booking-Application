@@ -1,0 +1,59 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Node Modules
+node_modules/
+client/node_modules/
+server/node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build Outputs
+dist/
+client/dist/
+server/dist/
+build/
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS Files
+.DS_Store
+.Thumbs.db
+
+# Log Files
+logs/
+*.log
+
+# Temporary Files
+*.tmp
+tmp/
+temp/
+
+# Package Lock Files (optional - uncomment if needed)
+# package-lock.json
+# yarn.lock
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# API Keys & Secrets (double check .env is listed)
+.env.production
+
+# Production Build
+.next/
+out/
+
+# Test Coverage
+coverage/
+.nyc_output/
