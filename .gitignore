@@ -57,3 +57,5 @@ out/
 # Test Coverage
 coverage/
 .nyc_output/
+# Vercel config
+.vercel/
